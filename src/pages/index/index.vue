@@ -15,7 +15,14 @@
 			}
 		},
 		onLoad() {
-
+			// this.$axios.get('http://127.0.0.1:7001/test?name=hyd')
+			// 	.then(({ data }) => {
+			// 		console.log(data);
+			// 		this.title = data.name
+			// 	})
+			// 	.catch(function (error) {
+			// 		console.log(error);
+			// 	})
 		},
 		methods: {
 
